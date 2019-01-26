@@ -44,13 +44,13 @@ namespace Pagann.OniHunter
                 MouseNvigation();
             }
 
-            if (cam.position.x > (MMManager.NumberOfTower - 1) * 9f)
+            if (cam.position.y > 70.2f)
             {
-                cam.position = new Vector3((MMManager.NumberOfTower - 1) * 9f, 0, -10f);
+                cam.position = new Vector3(-0.5f, 70.2f, -10f);
             }
-            if (cam.position.x < 0)
+            if (cam.position.y < 0)
             {
-                cam.position = new Vector3(0, 0, -10);
+                cam.position = new Vector3(-0.5f, 0, -10);
             }
         }
 
@@ -63,7 +63,7 @@ namespace Pagann.OniHunter
             if (sliding)
             {
                 Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                mousePos = new Vector3(mousePos.x, 0, -10);
+                mousePos = new Vector3(0, mousePos.y, -10);
                 mouseMoveDir = (mousePos - mouseStart);
                 cam.Translate(-mouseMoveDir * speed * Time.deltaTime);
             }
@@ -81,7 +81,7 @@ namespace Pagann.OniHunter
                 slip = false;
                 decrementer = 0f;
                 mouseStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                mouseStart = new Vector3(mouseStart.x, 0, -10);
+                mouseStart = new Vector3(0, mouseStart.y, -10);
             }
 
             if (Input.GetKeyUp(KeyCode.Mouse0))

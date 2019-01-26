@@ -8,6 +8,56 @@ namespace Pagann.OniHunter
     public class CreateTowerWizard : ScriptableWizard
     {
         [SerializeField] private string towerName;
+        [SerializeField] private int numberOfFloors = 30;
+        [SerializeField] private SpriteRenderer testObjectToClone;
+
+        [MenuItem("OniHunter/Create new tower")]
+        private static void CreateTower()
+        {
+            ScriptableWizard.DisplayWizard<CreateTowerWizard>("Create a new Tower", "Create");
+        }
+
+        private void OnWizardCreate()
+        {
+            float yPos = -5.2f;
+            for (int i = 0; i < numberOfFloors; i++)
+            {
+                int c = Random.Range(0, 3);
+                SpriteRenderer rend = GameObject.Instantiate(testObjectToClone.gameObject, new Vector3(-0.5f, yPos + (2.6f * i), 0), Quaternion.identity).GetComponent<SpriteRenderer>();
+                if (c == 0) rend.color = Color.cyan;
+                if (c == 1) rend.color = Color.magenta;
+                if (c == 2) rend.color = Color.gray;
+            }
+        }
+
+
+        public static void UpdateTowerParameters(TowerParameters param)
+        {
+            if (!EditorUtility.DisplayDialog("Warning", "Make sure to save the level(s) you are currently working on as prefab variant. Any overrides from the prefab will be erased.", "Continue", "Cancel")) return;
+            for (int i = 0; i < param.Levels.Length; i++)
+            {
+                param.Levels[i].TowerParameters = param;
+                param.Levels[i].IndexInTower = i;
+                param.Levels[i].Background.sprite = param.FloorsBackgrounds[Random.Range(0, param.FloorsBackgrounds.Length)];
+                PrefabUtility.SavePrefabAsset(param.Levels[i].gameObject);
+            }
+            GameManager[] managers = GameObject.FindObjectsOfType<GameManager>();
+            if (managers.Length > 0)
+            {
+                for (int i = 0; i < managers.Length; i++)
+                {
+                    PrefabUtility.RevertObjectOverride(managers[i], InteractionMode.AutomatedAction);
+                }
+            }
+        }
+
+    }
+
+
+
+    /*public class CreateTowerWizard : ScriptableWizard
+    {
+        [SerializeField] private string towerName;
         [SerializeField] private Sprite towerVisual;
         [SerializeField] private Sprite lastFloorBackground;
         [SerializeField] private Sprite[] possibleFloorBackground;
@@ -84,5 +134,5 @@ namespace Pagann.OniHunter
                 }
             }
         }
-    }
+    }*/
 }
