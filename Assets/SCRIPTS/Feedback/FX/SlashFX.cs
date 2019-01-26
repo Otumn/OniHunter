@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Pagann.OniHunter {
+namespace Pagann.OniHunter
+{
     public class SlashFX : MonoBehaviour
     {
         [SerializeField] private GameObject[] slashObjects;
