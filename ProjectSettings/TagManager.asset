@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ElectricProp
+  - Platform
+  - Enemy
+  - LineOfSight
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - Player
+  - Platform
+  - Enemy
+  - Strike
+  - Props
+  - StrikeButton
+  - LineOfSight
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2765750045
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Details
+    uniqueID: 1347240225
+    locked: 0
+  - name: Ropes
+    uniqueID: 3194312401
+    locked: 0
+  - name: Props
+    uniqueID: 560684731
+    locked: 0
+  - name: Characters
+    uniqueID: 4007238857
+    locked: 0
+  - name: Outlines
+    uniqueID: 3838182865
+    locked: 0
+  - name: FXs
+    uniqueID: 3235236387
+    locked: 0
+  - name: Ui
+    uniqueID: 2015942167
+    locked: 0

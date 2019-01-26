@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906fb3b1f1679554fa7ec66ec402c790, type: 3}
+  m_Name: ElectricBrush
+  m_EditorClassIdentifier: 
+  chosenGameObject: 0
+  zPos: 0
+  prefabs:
+  - {fileID: 1630770734637220, guid: 38f53c8524666c04d98f14530ff7ce0f, type: 3}
+  - {fileID: 1845992657816596, guid: 5336adeccffe2bd428b01492aa29f69c, type: 3}

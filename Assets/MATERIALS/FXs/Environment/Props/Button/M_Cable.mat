@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Cable
+  m_Shader: {fileID: 4800000, guid: 6a42a0ce307e42d43b9ba5b6d93202c7, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_4F6F6B6A:
+        m_Texture: {fileID: 2800000, guid: 0aa301e2334d8134a84a7f153cd58a96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_EF2BA114:
+        m_Texture: {fileID: 2800000, guid: 1d4045d376d92d9488d3258cf1074451, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 45b532eeeed7d9f40920e8d97dae444b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_6CE3A612_Out:
+        m_Texture: {fileID: 2800000, guid: 3ac90a6407dfd0041bdcafcb6905685d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_B169A270_Out:
+        m_Texture: {fileID: 2800000, guid: 7499567f29f7f664897b21d1fbba0081, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_BE13492E_Out:
+        m_Texture: {fileID: 2800000, guid: 45b532eeeed7d9f40920e8d97dae444b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_DAFC13C9_Out:
+        m_Texture: {fileID: 2800000, guid: 970d547c8d8ba454ebc25a002c21531b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_E40CE9F6_Out:
+        m_Texture: {fileID: 2800000, guid: e49954dd6e1b658468532bc0c3e82b17, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_13096E50: 0.4
+    - Vector1_1BAD9A13: 1.38
+    - Vector1_2217A79F: 0
+    - Vector1_3E39E5B9: 0
+    - Vector1_41264843: 0.06
+    - Vector1_76F6B743: 6.09
+    - Vector1_9230A1F3: -0.05
+    - Vector1_BA500CCB: 16.5
+    - Vector1_EE8A4000: 0
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _ReceiveShadows: 1
+    - _ScrollSpeed: -0.06
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    m_Colors:
+    - Color_423FF142: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 0}
+    - Color_7AD08FE2: {r: 0.4666667, g: 0.5571934, b: 1, a: 0}
+    - Color_8E23B2C1: {r: 0.3301887, g: 0.23587835, b: 0.054512277, a: 0}
+    - Color_B13DD638: {r: 1, g: 0.9544025, b: 0.9292453, a: 0}
+    - Color_CB8FDE91: {r: 0.7169812, g: 0.22485211, b: 0.21982914, a: 0}
+    - Color_D46FC009: {r: 0.4245283, g: 0, b: 0.32600904, a: 0}
+    - Color_ECEFCFAF: {r: 1, g: 0.71926355, b: 0.36320752, a: 0}
+    - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _ColorBase: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OffColor: {r: 1, g: 1, b: 1, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

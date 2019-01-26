@@ -1,0 +1,1287 @@
+fileFormatVersion: 2
+guid: d0e894a0c14d5ab45a9b6255aeb71f61
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SpriteSheet_EnemyWatcher_Idle_55_0
+    21300002: SpriteSheet_EnemyWatcher_Idle_55_1
+    21300004: SpriteSheet_EnemyWatcher_Idle_55_2
+    21300006: SpriteSheet_EnemyWatcher_Idle_55_3
+    21300008: SpriteSheet_EnemyWatcher_Idle_55_4
+    21300010: SpriteSheet_EnemyWatcher_Idle_55_5
+    21300012: SpriteSheet_EnemyWatcher_Idle_55_6
+    21300014: SpriteSheet_EnemyWatcher_Idle_55_7
+    21300016: SpriteSheet_EnemyWatcher_Idle_55_8
+    21300018: SpriteSheet_EnemyWatcher_Idle_55_9
+    21300020: SpriteSheet_EnemyWatcher_Idle_55_10
+    21300022: SpriteSheet_EnemyWatcher_Idle_55_11
+    21300024: SpriteSheet_EnemyWatcher_Idle_55_12
+    21300026: SpriteSheet_EnemyWatcher_Idle_55_13
+    21300028: SpriteSheet_EnemyWatcher_Idle_55_14
+    21300030: SpriteSheet_EnemyWatcher_Idle_55_15
+    21300032: SpriteSheet_EnemyWatcher_Idle_55_16
+    21300034: SpriteSheet_EnemyWatcher_Idle_55_17
+    21300036: SpriteSheet_EnemyWatcher_Idle_55_18
+    21300038: SpriteSheet_EnemyWatcher_Idle_55_19
+    21300040: SpriteSheet_EnemyWatcher_Idle_55_20
+    21300042: SpriteSheet_EnemyWatcher_Idle_55_21
+    21300044: SpriteSheet_EnemyWatcher_Idle_55_22
+    21300046: SpriteSheet_EnemyWatcher_Idle_55_23
+    21300048: SpriteSheet_EnemyWatcher_Idle_55_24
+    21300050: SpriteSheet_EnemyWatcher_Idle_55_25
+    21300052: SpriteSheet_EnemyWatcher_Idle_55_26
+    21300054: SpriteSheet_EnemyWatcher_Idle_55_27
+    21300056: SpriteSheet_EnemyWatcher_Idle_55_28
+    21300058: SpriteSheet_EnemyWatcher_Idle_55_29
+    21300060: SpriteSheet_EnemyWatcher_Idle_55_30
+    21300062: SpriteSheet_EnemyWatcher_Idle_55_31
+    21300064: SpriteSheet_EnemyWatcher_Idle_55_32
+    21300066: SpriteSheet_EnemyWatcher_Idle_55_33
+    21300068: SpriteSheet_EnemyWatcher_Idle_55_34
+    21300070: SpriteSheet_EnemyWatcher_Idle_55_35
+    21300072: SpriteSheet_EnemyWatcher_Idle_55_36
+    21300074: SpriteSheet_EnemyWatcher_Idle_55_37
+    21300076: SpriteSheet_EnemyWatcher_Idle_55_38
+    21300078: SpriteSheet_EnemyWatcher_Idle_55_39
+    21300080: SpriteSheet_EnemyWatcher_Idle_55_40
+    21300082: SpriteSheet_EnemyWatcher_Idle_55_41
+    21300084: SpriteSheet_EnemyWatcher_Idle_55_42
+    21300086: SpriteSheet_EnemyWatcher_Idle_55_43
+    21300088: SpriteSheet_EnemyWatcher_Idle_55_44
+    21300090: SpriteSheet_EnemyWatcher_Idle_55_45
+    21300092: SpriteSheet_EnemyWatcher_Idle_55_46
+    21300094: SpriteSheet_EnemyWatcher_Idle_55_47
+    21300096: SpriteSheet_EnemyWatcher_Idle_55_48
+    21300098: SpriteSheet_EnemyWatcher_Idle_55_49
+    21300100: SpriteSheet_EnemyWatcher_Idle_55_50
+    21300102: SpriteSheet_EnemyWatcher_Idle_55_51
+    21300104: SpriteSheet_EnemyWatcher_Idle_55_52
+    21300106: SpriteSheet_EnemyWatcher_Idle_55_53
+    21300108: SpriteSheet_EnemyWatcher_Idle_55_54
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 32
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 530
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7bd5dd39ea89747984ac42a7f18c16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 530
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1fdfe4535253e40a2c07987310edf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 530
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969923d1f48e1344da4172be34ae608f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 530
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0450fe1a44e59db40a94e274bc48db96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 530
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7a9e36e9d94494f9f592c7681975de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 477
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09909ca5e508e5742a53d02d1c5c335f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 477
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a4b74138005784db2b3d5a1d5e08bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 477
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fafd7ce7679bf04882e5443b549ec57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 477
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0ef7f588c2e3a428dabbf2a190ae8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 477
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c2342f3a6db9346855c9c95add7f84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca1d8461cc2fc74e8d1a098381baf60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 424
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88b23ca93d43fc4cb32273a335b07ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 424
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5816b70070f68084d9a694d36a70c21a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 424
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cf136c3bb647541ae2d7fbb5cb1b15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 424
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11048a7d229ca104189bd815cfde5fb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 371
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c4941cdc415ac4899cab330e175c4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_16
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 371
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c855c1fb8c9c3e94ca499524c0389b32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 371
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa15d7f0f03187f4aaadb2139bae0bc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 371
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab509c5d31e51c34eb87f3cc95cc70e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 371
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dce2aaf728da84f93fa5768c8b4166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f2c406dd1be6a42a6fd93420249315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_21
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 318
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d47174a098465543839ffdae97952df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 318
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a818df0d13456734981c9b38550377c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 318
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9718830640c7a344eaa1b2db3f3d21f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 318
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069a9c1294adace46943655e5b600549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 265
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8dae416451d384db646fef8531aecf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 265
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28015a0a91dbb3043a88e223a6e6af49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_27
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 265
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb20254bebaf6ec4aa1fe64805fdf59a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 265
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b31c02186a69f04c98cf4502edcedcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 265
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 564254b34162dae478ad542ffd843e67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfaee60d0800fda47aea06c13941fe27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 212
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4074ee673a3ae4c96169b47fa4e2e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 212
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db86dc0a521cfbe4d8a162216d3b984a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 212
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1b2be55a6103646b9746dd14568c8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 212
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b1505e78f8a3c49a4f9dfa22fbcea8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3423421eb257e26478f0ef9dd49cd9b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 159
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04920e7d33b034a4583730d2df6ebe4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 159
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e506d6d37f8ec46a27d772f12b350c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 159
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea6e8eaad48c8a4499be297c239ac39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 159
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bed9f918d080604183d156d50b13c2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49cce761209ea9499b95b3f2c8de204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_41
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 106
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3ef40de3590cb489e2d11df0f1109f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 106
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d091301673c5b45ab87a944f99c171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_43
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 106
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60b9131b5243a34db588c1c9202982e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_44
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 106
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734dc72b1fc4b6643871d3734ff5deaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 53
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b605e0f9beb94a54896d9072634cd9a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 53
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac69b63c5c07a440a18eaa27b16f1ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 53
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eb609e352646348a0e8a5ae780e355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_48
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 53
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d3e78bca1842a4caa6395ee97a8db3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 53
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44da14811a8722842833aa6c3a1610cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a11bd67996a5da448e29b5175e69e38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_51
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24599c835457104bbe1baf611730b5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae92cc1b5f7ad346ab924b2e93d79d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_53
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40483d25ec39e141a8ac2cb229be97e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet_EnemyWatcher_Idle_55_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 53
+      alignment: 9
+      pivot: {x: 0.5, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b295dc88556f7834197ea0a7d9359aff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 61454f15d2b14ae42bed65e965bd3ea8
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

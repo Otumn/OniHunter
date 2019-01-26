@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34088fb4afb0f0445a6ff3908d43dbbf, type: 3}
+  m_Name: FirstTowerParameters
+  m_EditorClassIdentifier: 
+  towerName: FirstTower
+  visual: {fileID: 0}
+  lastFloorBackground: {fileID: 0}
+  floorsBackgrounds:
+  - {fileID: 21300000, guid: 302cdbd1f0a2cb44a98bef1566a7990a, type: 3}
+  firstFloorBackground: {fileID: 0}
+  levels:
+  - {fileID: 8648042607312670911, guid: f821a3ac593249a4e8d2e9142338b9de, type: 3}
+  - {fileID: 3183598402083163800, guid: 28d60ab6a99e9d0478d8cf509890580d, type: 3}
+  - {fileID: 45557984308962850, guid: 2f6c684e9c5cf2640943c4459b08259c, type: 3}
+  - {fileID: 1884719343594610657, guid: 8e94ccdb7f52a2947b51c37779ac2a0e, type: 3}
+  - {fileID: 287044048473424658, guid: f0792e1844d47a446911f9b690c6cea8, type: 3}
+  - {fileID: 8569747418965135963, guid: 3cf23526a91d4a046aafd802554211c8, type: 3}
+  - {fileID: 2109643170582908174, guid: 5b611f977ab5b974f987176331cd1b3d, type: 3}
+  - {fileID: 7802145222142554496, guid: 2fe28e93142ee424ead5ebd0fd3d96e7, type: 3}
+  - {fileID: 8638682625855873501, guid: ab739b1a72ecdc5488c62db4b366d91a, type: 3}
+  - {fileID: 4988152624711891659, guid: f1f7a9acce7383b4f9b20debc1364a46, type: 3}
+  linkedPrefab: {fileID: 1042780404874271008, guid: 55eb808df1bfe5e4dba704338dc4489c,
+    type: 3}
