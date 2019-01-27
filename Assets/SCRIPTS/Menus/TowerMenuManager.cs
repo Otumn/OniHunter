@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 namespace Pagann.OniHunter
 {
-    public class MainMenuManager : MonoBehaviour
+    public class TowerMenuManager : MonoBehaviour
     {
         #region Private Variables
 
@@ -21,17 +21,7 @@ namespace Pagann.OniHunter
             StartCoroutine(LoadingAsync());
         }
 
-        private void Update()
-        {
-
-        }
-
         #endregion
-
-        #region Private Methods
-
-        #endregion
-
 
         #region Public Methods
 

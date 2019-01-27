@@ -15,7 +15,7 @@ namespace Pagann.OniHunter
         [SerializeField] private Sprite[] floorsBackgrounds;
         [SerializeField] private Sprite firstFloorBackground;
         [SerializeField] private GameManager[] levels;
-        [SerializeField] private GameObject linkedPrefab;
+        //[SerializeField] private GameObject linkedPrefab;
 
         #endregion
 
@@ -115,7 +115,7 @@ namespace Pagann.OniHunter
             }
         }
 
-        public GameObject LinkedPrefab { get => linkedPrefab; set => linkedPrefab = value; }
+        //public GameObject LinkedPrefab { get => linkedPrefab; set => linkedPrefab = value; }
 
         #endregion
     }

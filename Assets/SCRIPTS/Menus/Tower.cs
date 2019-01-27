@@ -10,13 +10,9 @@ namespace Pagann.OniHunter
     {
         #region Private Variables
 
-        [SerializeField] private MainMenuManager mMM;
-        [SerializeField] private SpriteRenderer visual;
-        [SerializeField] private Transform buttonsParent;
+        [SerializeField] private TowerMenuManager tMM;
+        [SerializeField] private RectTransform buttonsParent;
         [SerializeField] private List<LevelButton> levelButtons = new List<LevelButton>();
-        [SerializeField] private Transform[] buttonPos;
-        [SerializeField] private Sprite[] blackNumbers;
-        [SerializeField] private Sprite[] whiteNumbers;
         [Header("Level Descrition")]
         [SerializeField] private GameObject description;
 
@@ -48,6 +44,7 @@ namespace Pagann.OniHunter
 
         public void PopDescription()
         {
+            //add lines depending on the game mode
             description.SetActive(true);
         }
 
@@ -58,25 +55,21 @@ namespace Pagann.OniHunter
 
         public void LoadLevel()
         {
-            mMM.LoadGameScene();
+            tMM.LoadGameScene();
         }
 
         [ContextMenu("Find main menu manager")]
         public void FindMMM()
         {
-            mMM = GameObject.Find("MainMenuManager").GetComponent<MainMenuManager>();
+            tMM = GameObject.Find("MainMenuManager").GetComponent<TowerMenuManager>();
         }
 
         #endregion
 
         #region Properties
 
-        public SpriteRenderer Visual { get => visual; set => visual = value;}
         public List<LevelButton> LevelButtons { get => levelButtons; }
-        public Transform[] ButtonPos { get => buttonPos; }
-        public Transform ButtonsParent { get => buttonsParent; set => buttonsParent = value; }
-        public Sprite[] WhiteNumbers { get => whiteNumbers; }
-        public Sprite[] BlackNumbers { get => blackNumbers; }
+        public RectTransform ButtonsParent { get => buttonsParent; set => buttonsParent = value; }
 
         #endregion
     }
