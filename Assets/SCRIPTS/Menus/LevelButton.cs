@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 namespace Pagann.OniHunter
 {
@@ -13,27 +12,7 @@ namespace Pagann.OniHunter
         [SerializeField] private Tower menuTower;
         [SerializeField] private string levelToLoad;
         [SerializeField] private WinConditions.SideObjective gameMode;
-        [SerializeField] private Image numberImage;
-
-        #endregion
-
-        #region Monobehaviour callbacks
-
-        private void Start()
-        {
-
-        }
-
-        private void Update()
-        {
-
-        }
-
-        #endregion
-
-        #region Private Methods
-
-
+        [SerializeField] private Text levelNumber;
 
         #endregion
 
@@ -63,7 +42,7 @@ namespace Pagann.OniHunter
 
         public WinConditions.SideObjective GameMode { get => gameMode; }
         public Tower MenuTower { get => menuTower; set => menuTower = value; }
-        public Image NumberImage { get => numberImage; }
+        public Text LevelNumber { get => levelNumber; }
 
         #endregion
     }

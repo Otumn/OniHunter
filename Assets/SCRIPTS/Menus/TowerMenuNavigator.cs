@@ -4,13 +4,11 @@ using UnityEngine;
 
 namespace Pagann.OniHunter
 {
-    public class MainMenuNavigator : MonoBehaviour
+    public class TowerMenuNavigator : MonoBehaviour
     {
         #region Private Variables
 
-        [SerializeField] private MainMenuManager MMManager;
         [SerializeField] private Transform cam;
-        [SerializeField] private LayerMask touchMask;
         [SerializeField] private float speed = 5f;
         [Header("Mouse navigation")]
         [SerializeField] private bool usingMouse = false;
@@ -46,11 +44,11 @@ namespace Pagann.OniHunter
 
             if (cam.position.y > 70.2f)
             {
-                cam.position = new Vector3(-0.5f, 70.2f, -10f);
+                cam.position = new Vector3(0, 70.2f, -10f);
             }
             if (cam.position.y < 0)
             {
-                cam.position = new Vector3(-0.5f, 0, -10);
+                cam.position = new Vector3(0, 0, -10);
             }
         }
 
@@ -128,9 +126,6 @@ namespace Pagann.OniHunter
 
         #endregion
 
-
-        #region Public Methods
-        #endregion
     }
 }
 

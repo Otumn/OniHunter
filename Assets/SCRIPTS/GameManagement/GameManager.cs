@@ -104,6 +104,7 @@ namespace Pagann.OniHunter
         private void FindReferences()
         {
             LevelsManager lvlManager = GameObject.Find("LevelsManager").GetComponent<LevelsManager>();
+            LevelsManager.state.CurrentLoadedLevel = this;
             lvlManager.LinkGameManager(this);
         }
 

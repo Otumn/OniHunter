@@ -8,8 +8,7 @@ namespace Pagann.OniHunter
     public class CreateTowerWizard : ScriptableWizard
     {
         [SerializeField] private string towerName;
-        [SerializeField] private int numberOfFloors = 30;
-        [SerializeField] private SpriteRenderer testObjectToClone;
+        [SerializeField] private GameManager[] levels;
 
         [MenuItem("OniHunter/Create new tower")]
         private static void CreateTower()
@@ -20,14 +19,37 @@ namespace Pagann.OniHunter
         private void OnWizardCreate()
         {
             float yPos = -5.2f;
-            for (int i = 0; i < numberOfFloors; i++)
+            GameObject towerGO = PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>("Assets/_PREFABS/Main menu/Towers/TowerBase.prefab")) as GameObject;
+            towerGO.name = towerName;
+            towerGO.transform.position = new Vector3(0, yPos, 0);
+            Tower towerComp = towerGO.GetComponent<Tower>();
+            towerComp.ButtonsParent.sizeDelta = new Vector2(towerComp.ButtonsParent.sizeDelta.x, (2.6f * levels.Length) + 5.2f);
+            for (int i = 0; i < levels.Length; i++)
             {
-                int c = Random.Range(0, 3);
-                SpriteRenderer rend = GameObject.Instantiate(testObjectToClone.gameObject, new Vector3(-0.5f, yPos + (2.6f * i), 0), Quaternion.identity).GetComponent<SpriteRenderer>();
+                /*int c = Random.Range(0, 3);
+                SpriteRenderer rend = GameObject.Instantiate(testObjectToClone, Vector3.zero, Quaternion.identity).GetComponent<SpriteRenderer>();
+                rend.transform.parent = tower.transform;
+                rend.transform.localPosition = new Vector3(0, i * 2.6f, 0);
                 if (c == 0) rend.color = Color.cyan;
                 if (c == 1) rend.color = Color.magenta;
                 if (c == 2) rend.color = Color.gray;
+                rend.name = LevelsManager.GetRealPrefabName(rend.gameObject);*/
+                GameObject newLevelButtonGO = PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>("Assets/_PREFABS/Main menu/LevelButton.prefab")) as GameObject;
+                newLevelButtonGO.transform.parent = towerComp.ButtonsParent;
+                newLevelButtonGO.transform.localPosition = new Vector3(0, i * 2.6f, 0);
+                newLevelButtonGO.name = levels[i].name + "_Button";
+                LevelButton levelButtonComp = newLevelButtonGO.GetComponent<LevelButton>();
+                levelButtonComp.LevelToLoad = levels[i].name;
+                levelButtonComp.MenuTower = towerComp;
+                levelButtonComp.LevelNumber.text = (i + 1).ToString();
+
             }
+            TowerParameters createdParameters = ScriptableObject.CreateInstance<TowerParameters>();
+            createdParameters.TowerName = towerName;
+            createdParameters.Levels = levels;
+
+            AssetDatabase.CreateAsset(createdParameters, "Assets/SCRIPTABLEOBJECTS/Tower parameters/" + towerName + "Parameters.asset");
+            CreateTowerWizard.UpdateTowerParameters(AssetDatabase.LoadAssetAtPath<TowerParameters>("Assets/SCRIPTABLEOBJECTS/Tower parameters/" + towerName + "Parameters.asset") as TowerParameters);
         }
 
 
@@ -38,7 +60,7 @@ namespace Pagann.OniHunter
             {
                 param.Levels[i].TowerParameters = param;
                 param.Levels[i].IndexInTower = i;
-                param.Levels[i].Background.sprite = param.FloorsBackgrounds[Random.Range(0, param.FloorsBackgrounds.Length)];
+                //param.Levels[i].Background.sprite = param.FloorsBackgrounds[Random.Range(0, param.FloorsBackgrounds.Length)];
                 PrefabUtility.SavePrefabAsset(param.Levels[i].gameObject);
             }
             GameManager[] managers = GameObject.FindObjectsOfType<GameManager>();
