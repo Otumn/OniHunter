@@ -61,7 +61,7 @@ namespace Pagann.OniHunter
         [ContextMenu("Find main menu manager")]
         public void FindMMM()
         {
-            tMM = GameObject.Find("MainMenuManager").GetComponent<TowerMenuManager>();
+            tMM = GameObject.Find("TowerMenuManager").GetComponent<TowerMenuManager>();
         }
 
         #endregion
