@@ -10,9 +10,7 @@ namespace Pagann.OniHunter
 
         [SerializeField] private Transform cam;
         [SerializeField] private float speed = 5f;
-        [Header("Mouse navigation")]
         [SerializeField] private bool usingMouse = false;
-        [SerializeField] private float margins = 10;
 
         private Vector3 mouseStart;
         private Vector3 mouseMoveDir;
@@ -95,7 +93,7 @@ namespace Pagann.OniHunter
             if (sliding)
             {
                 Vector3 touchPos = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-                touchPos = new Vector3(touchPos.x, 0, -10);
+                touchPos = new Vector3(0, touchPos.y, -10);
                 mouseMoveDir = (touchPos - mouseStart);
                 cam.Translate(-mouseMoveDir * speed * Time.deltaTime);
             }
@@ -113,7 +111,7 @@ namespace Pagann.OniHunter
                 slip = false;
                 decrementer = 0f;
                 mouseStart = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
-                mouseStart = new Vector3(mouseStart.x, 0, -10);
+                mouseStart = new Vector3(0, mouseStart.y, -10);
             }
 
             if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
