@@ -1185,17 +1185,17 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 114644743020068106}
+    - target: {fileID: 8280003305668109663, guid: 1f20b633995caba40a58cf07188c4223,
+        type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 114644743020068106}
     - target: {fileID: 6171753761679762416, guid: 1f20b633995caba40a58cf07188c4223,
         type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 114644743020068106}
     - target: {fileID: 754599951305658863, guid: 1f20b633995caba40a58cf07188c4223,
-        type: 3}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 114644743020068106}
-    - target: {fileID: 8280003305668109663, guid: 1f20b633995caba40a58cf07188c4223,
         type: 3}
       propertyPath: player
       value: 

@@ -17,6 +17,7 @@ namespace Pagann.OniHunter
         [SerializeField] private Animator winAnim;
         [SerializeField] private Animator elevatorAnim;
         [SerializeField] private Animator incompleteAnim;
+        [SerializeField] private Animator preparingStrikeAnim;
 
         #region Entity Callbacks
 
@@ -74,6 +75,7 @@ namespace Pagann.OniHunter
             winAnim.SetBool("Win", false);
             elevatorAnim.SetBool("NeedElevator", false);
             incompleteAnim.SetBool("NeedElevator", false);
+            preparingStrikeAnim.SetBool("Prepare", false);
         }
 
         public void Detected()
@@ -90,6 +92,11 @@ namespace Pagann.OniHunter
         {
             //currently using the same animator than elevatorAnim. This is a placeHolder.
             incompleteAnim.SetBool("NeedElevator", true);
+        }
+
+        public void PrepareStrike()
+        {
+            preparingStrikeAnim.SetBool("Prepare", true);
         }
 
         #endregion

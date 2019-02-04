@@ -183,12 +183,12 @@ namespace Pagann.OniHunter
                 if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Ended)
                 {
                     ConfirmingMarkerPlacement(true);
-                    touchManager.ReplaceTarget();
+                    //touchManager.ReplaceTarget();
                 }
                 else if (Input.GetKeyUp(KeyCode.Mouse0))
                 {
                     ConfirmingMarkerPlacement(false);
-                    touchManager.ReplaceTarget();
+                    //touchManager.ReplaceTarget();
                 }
             }
         }
@@ -330,12 +330,13 @@ namespace Pagann.OniHunter
             markers[0] = playerMarker;
             playerMarker.Sprite.enabled = false;
             ActivateLineDash(true);
-            touchManager.ReplaceTarget();
+            //touchManager.ReplaceTarget();
             InitialJump();
             bulletTime.SlowTime(ghostTimeScale, ghostSpeedSlowMo); // Slow Mo   
             isPreparing = true;
             canInitiateStrike = false;
             GameManager.gameState.CallGhostStrikePreparing();
+            GameManager.gameState.UiManager.PrepareStrike();
             StartCoroutine(CanReceiveInputDelay());
         }
 

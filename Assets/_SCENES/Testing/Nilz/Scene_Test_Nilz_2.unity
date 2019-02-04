@@ -119,6 +119,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1854392076429282, guid: 1a188d1439acf1549b23e3eb947b5136, type: 3}
+      propertyPath: m_Name
+      value: LevelsManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854392076429282, guid: 1a188d1439acf1549b23e3eb947b5136, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4014841049193470, guid: 1a188d1439acf1549b23e3eb947b5136, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -163,10 +171,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1854392076429282, guid: 1a188d1439acf1549b23e3eb947b5136, type: 3}
-      propertyPath: m_Name
-      value: LevelsManager
-      objectReference: {fileID: 0}
     - target: {fileID: 1081627979396283548, guid: 1a188d1439acf1549b23e3eb947b5136,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -177,6 +181,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7083951026999191593, guid: 1a188d1439acf1549b23e3eb947b5136,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 7.600006
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a188d1439acf1549b23e3eb947b5136, type: 3}
 --- !u!1001 &51122454
@@ -186,6 +195,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1476316499}
     m_Modifications:
+    - target: {fileID: 8720908131802678831, guid: f22960cce33635e4699f4ec25894e90f,
+        type: 3}
+      propertyPath: m_Name
+      value: Elevator Platform_1_1 holder
+      objectReference: {fileID: 0}
     - target: {fileID: 3508757863099245704, guid: f22960cce33635e4699f4ec25894e90f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -241,11 +255,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8720908131802678831, guid: f22960cce33635e4699f4ec25894e90f,
-        type: 3}
-      propertyPath: m_Name
-      value: Elevator Platform_1_1 holder
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f22960cce33635e4699f4ec25894e90f, type: 3}
 --- !u!1001 &831919357
@@ -255,6 +264,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1476316499}
     m_Modifications:
+    - target: {fileID: 1042229692938570, guid: 43718c1b417dd784b8d9468d772ccad1, type: 3}
+      propertyPath: m_Name
+      value: Player_Holder
+      objectReference: {fileID: 0}
     - target: {fileID: 4814419570392824, guid: 43718c1b417dd784b8d9468d772ccad1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.50625
@@ -299,10 +312,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1042229692938570, guid: 43718c1b417dd784b8d9468d772ccad1, type: 3}
-      propertyPath: m_Name
-      value: Player_Holder
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43718c1b417dd784b8d9468d772ccad1, type: 3}
 --- !u!4 &1476316499 stripped
@@ -318,6 +327,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1817250063885932, guid: b365a39c39aaf7c47bfecb8b8a38eecb, type: 3}
+      propertyPath: m_Name
+      value: W5555_T5555_L5555
+      objectReference: {fileID: 0}
     - target: {fileID: 4993726448488998, guid: b365a39c39aaf7c47bfecb8b8a38eecb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -361,10 +374,6 @@ PrefabInstance:
     - target: {fileID: 4993726448488998, guid: b365a39c39aaf7c47bfecb8b8a38eecb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1817250063885932, guid: b365a39c39aaf7c47bfecb8b8a38eecb, type: 3}
-      propertyPath: m_Name
-      value: W5555_T5555_L5555
       objectReference: {fileID: 0}
     - target: {fileID: 114051832360507752, guid: b365a39c39aaf7c47bfecb8b8a38eecb,
         type: 3}

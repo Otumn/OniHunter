@@ -58,7 +58,7 @@ namespace Pagann.OniHunter
 
         public override void GhostStrikePreparing()
         {
-            touchCollider.radius = targetRadius;
+            touchCollider.radius = 0; // line from the time when the strike had to be launch by touching the last target we placed
         }
 
         #region Public Methods

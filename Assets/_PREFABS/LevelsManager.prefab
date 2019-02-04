@@ -142,6 +142,7 @@ MonoBehaviour:
   winAnim: {fileID: 4089811720630206775}
   elevatorAnim: {fileID: 4747255989860355730}
   incompleteAnim: {fileID: 5381121812774583977}
+  preparingStrikeAnim: {fileID: 641450502518972979}
 --- !u!1 &18724282077875078
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +861,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7816078848096850310}
+  - component: {fileID: 641450502518972979}
   m_Layer: 5
   m_Name: StrikingCanvas
   m_TagString: Untagged
@@ -888,6 +890,25 @@ RectTransform:
   m_AnchoredPosition: {x: -0.00011444, y: -0.00020218}
   m_SizeDelta: {x: 199.64, y: 354.64}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &641450502518972979
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2282943455576927038}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9de29dbf0bae43343ab2ec1e009ca593, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2298702256845117193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1952,7 +1973,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -78}
   m_SizeDelta: {x: 75.64998, y: 30}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &9207370855691841037
@@ -2796,7 +2817,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -18.2, y: 7.5}
+  m_AnchoredPosition: {x: -18.2, y: -67.3}
   m_SizeDelta: {x: 40, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7776772059158349082
