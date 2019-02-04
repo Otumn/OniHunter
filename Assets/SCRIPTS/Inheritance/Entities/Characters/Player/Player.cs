@@ -106,7 +106,6 @@ namespace Pagann.OniHunter
             InitialJumpManager();
             SpriteFlip();
             LineDashManager();
-            LastDashToElevatorManager();
             PlayerMarkerManager();
         }
 
@@ -144,28 +143,15 @@ namespace Pagann.OniHunter
                 if (HasTouched() && !LevelsManager.state.UImanager.IsInputUI(Input.GetTouch(0).position))
                 {
                     PlaceMarker();
-                    /*if(IsTouchFarEnough)
-                    {
-                        PlaceMarker();
-                    }
-                    else
-                    {
-                        return;
-                    }*/
                 }
-
-                else if(Input.GetKeyDown(KeyCode.Mouse0) && !LevelsManager.state.UImanager.IsInputUI(Input.mousePosition)) 
+                else if(HasClicked())
                 {
                     PlaceMarker();
-                    /*if(IsMouseFarEnough)
-                    {
-                        PlaceMarker();
-                    }
-                    else
-                    {
-                        return;
-                    }*/
                 }
+                /*else if(Input.GetKeyDown(KeyCode.Mouse0) && !LevelsManager.state.UImanager.IsInputUI(Input.mousePosition)) 
+                {
+                    PlaceMarker();
+                }*/
             }
 
             if (CanPlaceMarker() && markerPlaced && !IsDetected) // While the finger is still sliding on the screen, the target follows it.
@@ -174,7 +160,7 @@ namespace Pagann.OniHunter
                 {
                     ReplacingMarker(true);
                 }
-                else if (Input.GetKey(KeyCode.Mouse0))
+                else if (Input.GetKey(KeyCode.Mouse0) && !LevelsManager.state.UImanager.IsInputUI(Input.mousePosition))
                 {
                     ReplacingMarker(false);
                 }
@@ -261,6 +247,18 @@ namespace Pagann.OniHunter
                 return true;
             }
 
+            else
+            {
+                return false;
+            }
+        }
+
+        private bool HasClicked()
+        {
+            if(Input.GetKeyDown(KeyCode.Mouse0) && !LevelsManager.state.UImanager.IsInputUI(Input.mousePosition))
+            {
+                return true;
+            }
             else
             {
                 return false;
@@ -600,17 +598,6 @@ namespace Pagann.OniHunter
             {
                 ShouldSalute = true;
                 anim.SetTrigger("Fall");
-            }
-        }
-
-        /// <summary>
-        /// Manage the last dash the player automaticly does when he lands on the elevator platform.
-        /// </summary>
-        public void LastDashToElevatorManager()
-        {
-            if(shouldGetBackToElevator)
-            {
-
             }
         }
 

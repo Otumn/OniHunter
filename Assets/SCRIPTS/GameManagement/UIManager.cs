@@ -18,14 +18,6 @@ namespace Pagann.OniHunter
         [SerializeField] private Animator elevatorAnim;
         [SerializeField] private Animator incompleteAnim;
 
-        private void Update()
-        {
-            if(Input.GetKeyDown(KeyCode.Mouse0))
-            {
-                Debug.Log(IsInputUI(Input.mousePosition));
-            }
-        }
-
         #region Entity Callbacks
 
         public override void LevelEnd(bool mainObj, bool sideObj, bool dashLimit)
