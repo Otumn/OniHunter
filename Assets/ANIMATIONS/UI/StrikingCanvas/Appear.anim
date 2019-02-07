@@ -22,80 +22,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -18.2
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.35
-        value: -18.2
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_AnchoredPosition.x
-    path: SlowMoButton
-    classID: 224
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -67.3
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.28333333
-        value: 5
-        inSlope: 60
-        outSlope: 16.91346
-        tangentMode: 1
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.46982968
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 11.5
-        inSlope: 33.314484
-        outSlope: 2.0717912
-        tangentMode: 1
-        weightedMode: 0
-        inWeight: 0.36544025
-        outWeight: 1
-      - serializedVersion: 3
-        time: 0.35
-        value: 7.5
-        inSlope: -60.406822
-        outSlope: 0
-        tangentMode: 1
-        weightedMode: 0
-        inWeight: 0.640398
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_AnchoredPosition.y
-    path: SlowMoButton
-    classID: 224
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 0
         inSlope: 0
         outSlope: 0
@@ -104,7 +30,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.35
+        time: 0.2
         value: 0
         inSlope: 0
         outSlope: 0
@@ -116,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.x
-    path: StrikeButton
+    path: Buttons
     classID: 224
     script: {fileID: 0}
   - curve:
@@ -124,7 +50,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -78
+        value: -200
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -132,37 +58,37 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -2.5
-        inSlope: 59.999992
-        outSlope: 16.836851
-        tangentMode: 1
+        time: 0.11666667
+        value: 70
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.44560468
+        outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.33333334
-        value: 4
-        inSlope: 43.058956
-        outSlope: -2.0822423
-        tangentMode: 1
-        weightedMode: 0
-        inWeight: 0.38482028
-        outWeight: 0.63077736
-      - serializedVersion: 3
-        time: 0.35
-        value: 0
-        inSlope: -61.842674
+        time: 0.16666667
+        value: -20
+        inSlope: 0
         outSlope: 0
-        tangentMode: 1
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0.62231946
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
         outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.y
-    path: StrikeButton
+    path: Buttons
     classID: 224
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -174,28 +100,14 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2648594453
+      path: 2363604010
       attribute: 538195251
       script: {fileID: 0}
       typeID: 224
       customType: 28
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2765150911
-      attribute: 538195251
-      script: {fileID: 0}
-      typeID: 224
-      customType: 28
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2648594453
-      attribute: 1460864421
-      script: {fileID: 0}
-      typeID: 224
-      customType: 28
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2765150911
+      path: 2363604010
       attribute: 1460864421
       script: {fileID: 0}
       typeID: 224
@@ -207,7 +119,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.35
+    m_StopTime: 0.2
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -228,80 +140,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -18.2
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.35
-        value: -18.2
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_AnchoredPosition.x
-    path: SlowMoButton
-    classID: 224
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -67.3
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.28333333
-        value: 5
-        inSlope: 60
-        outSlope: 16.91346
-        tangentMode: 1
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.46982968
-      - serializedVersion: 3
-        time: 0.33333334
-        value: 11.5
-        inSlope: 33.314484
-        outSlope: 2.0717912
-        tangentMode: 1
-        weightedMode: 0
-        inWeight: 0.36544025
-        outWeight: 1
-      - serializedVersion: 3
-        time: 0.35
-        value: 7.5
-        inSlope: -60.406822
-        outSlope: 0
-        tangentMode: 1
-        weightedMode: 0
-        inWeight: 0.640398
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_AnchoredPosition.y
-    path: SlowMoButton
-    classID: 224
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 0
         inSlope: 0
         outSlope: 0
@@ -310,7 +148,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.35
+        time: 0.2
         value: 0
         inSlope: 0
         outSlope: 0
@@ -322,7 +160,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.x
-    path: StrikeButton
+    path: Buttons
     classID: 224
     script: {fileID: 0}
   - curve:
@@ -330,7 +168,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -78
+        value: -200
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -338,37 +176,37 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.28333333
-        value: -2.5
-        inSlope: 59.999992
-        outSlope: 16.836851
-        tangentMode: 1
+        time: 0.11666667
+        value: 70
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
-        outWeight: 0.44560468
+        outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.33333334
-        value: 4
-        inSlope: 43.058956
-        outSlope: -2.0822423
-        tangentMode: 1
-        weightedMode: 0
-        inWeight: 0.38482028
-        outWeight: 0.63077736
-      - serializedVersion: 3
-        time: 0.35
-        value: 0
-        inSlope: -61.842674
+        time: 0.16666667
+        value: -20
+        inSlope: 0
         outSlope: 0
-        tangentMode: 1
+        tangentMode: 136
         weightedMode: 0
-        inWeight: 0.62231946
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0.33333334
         outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AnchoredPosition.y
-    path: StrikeButton
+    path: Buttons
     classID: 224
     script: {fileID: 0}
   m_EulerEditorCurves: []

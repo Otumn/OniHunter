@@ -336,7 +336,6 @@ namespace Pagann.OniHunter
             isPreparing = true;
             canInitiateStrike = false;
             GameManager.gameState.CallGhostStrikePreparing();
-            GameManager.gameState.UiManager.PrepareStrike();
             StartCoroutine(CanReceiveInputDelay());
         }
 

@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Pagann.OniHunter
 {
+    /// <summary>
+    /// This class manage the placement of the collider responsible for the initiation and the start of the strike.
+    /// </summary>
     public class PlayerTouchManager : Entity
     {
         #region Serialized fields
@@ -12,7 +15,7 @@ namespace Pagann.OniHunter
         [SerializeField] private LayerMask mask;
         [SerializeField] private GameObject target;
         [SerializeField] private CircleCollider2D touchCollider;
-        [SerializeField] private float targetRadius = 0.5f;
+        [SerializeField] private float targetRadius = 0.5f; // 0 because WIP with the new UI strike buttons
 
         #endregion
 
@@ -58,7 +61,7 @@ namespace Pagann.OniHunter
 
         public override void GhostStrikePreparing()
         {
-            touchCollider.radius = 0; // line from the time when the strike had to be launch by touching the last target we placed
+            touchCollider.radius = targetRadius; // line from the time when the strike had to be launch by touching the last target we placed
         }
 
         #region Public Methods

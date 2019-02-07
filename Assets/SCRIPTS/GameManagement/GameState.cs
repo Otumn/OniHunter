@@ -14,7 +14,7 @@ namespace Pagann.OniHunter
         #region Private Variables    
         
         private CamZoom camZoom;
-        private UIManager uiManager;
+        private LevelUiManager uiManager;
         private ObjectFollow camFollow;
         private LevelParameters parameters;
         private GameManager gameManager;
@@ -42,7 +42,7 @@ namespace Pagann.OniHunter
         /// <param name="cam">Allow several camera effects.</param>
         /// <param name="manager">Reference to the GameManager.</param>
         /// <param name="input">Input Type. 0 if Mouse, 1 if touch. </param>
-        public void Initialize(LevelParameters param, CamZoom cam, GameManager manager, ObjectFollow camFoll, UIManager ui, BlinkManager blinkMng)
+        public void Initialize(LevelParameters param, CamZoom cam, GameManager manager, ObjectFollow camFoll, LevelUiManager ui, BlinkManager blinkMng)
         {
             CamFollow = camFoll;
             parameters = param;
@@ -370,7 +370,7 @@ namespace Pagann.OniHunter
             }
         }
 
-        public UIManager UiManager { get => uiManager; set => uiManager = value; }
+        public LevelUiManager UiManager { get => uiManager; set => uiManager = value; }
 
         public GameManager Manager { get => gameManager;  }
         public BlinkManager BlinkManager { get => blinkManager; set => blinkManager = value; }

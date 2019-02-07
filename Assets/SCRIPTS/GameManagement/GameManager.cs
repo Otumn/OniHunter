@@ -13,7 +13,7 @@ namespace Pagann.OniHunter
         [SerializeField] private bool testing = false;
         [SerializeField] private LevelParameters levelParameters;
         [SerializeField] private CamZoom camZoom;
-        [SerializeField] private UIManager ui;
+        [SerializeField] private LevelUiManager ui;
         [SerializeField] private ObjectFollow camFollow;
         [SerializeField] private BlinkManager blinkManager;
         [SerializeField] private AnimationCurve elevatorCurve;
@@ -89,7 +89,7 @@ namespace Pagann.OniHunter
         /// <param name="zoom"></param>
         /// <param name="follow"></param>
         /// <param name="ui"></param>
-        public void SetReferences(CamZoom zoom, ObjectFollow follow, UIManager uiMng)
+        public void SetReferences(CamZoom zoom, ObjectFollow follow, LevelUiManager uiMng)
         {
             camZoom = zoom;
             camFollow = follow;

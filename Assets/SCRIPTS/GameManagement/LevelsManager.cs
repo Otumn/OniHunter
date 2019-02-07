@@ -18,7 +18,7 @@ namespace Pagann.OniHunter
         [SerializeField] private int level = 1;
         [Header("Management references")]
         [SerializeField] private CamZoom camZoom;
-        [SerializeField] private UIManager ui;
+        [SerializeField] private LevelUiManager ui;
         [SerializeField] private ObjectFollow camFollow;
         private string levelName;
 
@@ -163,14 +163,14 @@ namespace Pagann.OniHunter
         private GameManager currentLoadedLevel;
         private GameManager previousLoadedLevel;
         private CamZoom camZoom;
-        private UIManager ui;
+        private LevelUiManager ui;
         private ObjectFollow camFollow;
 
         #endregion
 
         #region Public Methods
 
-        public void SaveUtility(CamZoom zoom, UIManager uiMng, ObjectFollow flw)
+        public void SaveUtility(CamZoom zoom, LevelUiManager uiMng, ObjectFollow flw)
         {
             camZoom = zoom;
             ui = uiMng;
@@ -189,7 +189,7 @@ namespace Pagann.OniHunter
             }
         }
 
-        public UIManager UImanager
+        public LevelUiManager UImanager
         {
             get
             {
