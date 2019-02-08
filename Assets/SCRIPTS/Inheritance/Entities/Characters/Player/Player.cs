@@ -21,6 +21,7 @@ namespace Pagann.OniHunter
         [SerializeField] private PlayerTouchManager touchManager;
         [SerializeField] private ElevatorPlatform elevator;
         [SerializeField] private Transform elevatorPos;
+        [SerializeField] private GameplayUIManager gameplayUIManager;
 
         [Header("Mark placement")]
         [Space(10)]
@@ -140,18 +141,14 @@ namespace Pagann.OniHunter
         {
             if (CanPlaceMarker() && !IsDetected) //Once Ghost Strike is On, Tapping again spawns a target on the finger position.
             {
-                if (HasTouched() && !LevelsManager.state.UImanager.IsInputUI(Input.GetTouch(0).position))
+                if (HasTouched() && !gameplayUIManager.CheckInputUi(Input.GetTouch(0).position))
                 {
                     PlaceMarker();
                 }
-                else if(HasClicked())
+                if(HasClicked())
                 {
                     PlaceMarker();
                 }
-                /*else if(Input.GetKeyDown(KeyCode.Mouse0) && !LevelsManager.state.UImanager.IsInputUI(Input.mousePosition)) 
-                {
-                    PlaceMarker();
-                }*/
             }
 
             if (CanPlaceMarker() && markerPlaced && !IsDetected) // While the finger is still sliding on the screen, the target follows it.
@@ -160,7 +157,7 @@ namespace Pagann.OniHunter
                 {
                     ReplacingMarker(true);
                 }
-                else if (Input.GetKey(KeyCode.Mouse0) && !LevelsManager.state.UImanager.IsInputUI(Input.mousePosition))
+                else if (Input.GetKey(KeyCode.Mouse0) && !gameplayUIManager.CheckInputUi(Input.mousePosition))
                 {
                     ReplacingMarker(false);
                 }
@@ -255,7 +252,7 @@ namespace Pagann.OniHunter
 
         private bool HasClicked()
         {
-            if(Input.GetKeyDown(KeyCode.Mouse0) && !LevelsManager.state.UImanager.IsInputUI(Input.mousePosition))
+            if(Input.GetKeyDown(KeyCode.Mouse0) && !gameplayUIManager.CheckInputUi(Input.mousePosition))
             {
                 return true;
             }
@@ -271,7 +268,7 @@ namespace Pagann.OniHunter
         /// <returns></returns>
         private bool HasMovedFinger()
         {
-            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved && !gameplayUIManager.CheckInputUi(Input.GetTouch(0).position))
             {
                 return true;
             }
@@ -332,7 +329,7 @@ namespace Pagann.OniHunter
             ActivateLineDash(true);
             //touchManager.ReplaceTarget();
             InitialJump();
-            //bulletTime.SlowTime(ghostTimeScale, ghostSpeedSlowMo); // Slow Mo   
+            bulletTime.SlowTime(ghostTimeScale, ghostSpeedSlowMo); // Slow Mo   
             isPreparing = true;
             canInitiateStrike = false;
             GameManager.gameState.CallGhostStrikePreparing();

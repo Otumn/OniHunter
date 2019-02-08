@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Pagann.OniHunter
 {
@@ -10,8 +11,15 @@ namespace Pagann.OniHunter
     public class GameplayUIManager : Entity
     {
         [SerializeField] private Player player;
+        [Header("UI")]
+        [SerializeField] private GraphicRaycaster[] raycasters;
         [Header("Animations")]
         [SerializeField] private Animator strikingAnim;
+
+        public bool CheckInputUi(Vector3 pos)
+        {
+            return LevelsManager.state.UImanager.CheckUiInput(pos, raycasters);
+        }
 
         public override void GhostStrikePreparing()
         {
