@@ -30,7 +30,7 @@ namespace Pagann.OniHunter
             }
             for (int i = 0; i < addedRaycasters.Length; i++)
             {
-                fullRaycasters.Add(raycasters[i]);
+                fullRaycasters.Add(addedRaycasters[i]);
             }
             return UiInputBlocker.IsInputUI(pos, fullRaycasters.ToArray(), eventSystem);
         }

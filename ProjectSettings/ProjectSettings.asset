@@ -238,7 +238,7 @@ PlayerSettings:
   AndroidTargetArchitectures: 5
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: D:/SlinNosren/Documents/ProjetsUnity/Oni frankenstein/Assets/KEYSTORES/OniKey.keystore
+  AndroidKeystoreName: C:/Users/n.nerson/Documents/Unity Projects/OniHunter/Keystore/OniKey.keystore
   AndroidKeyaliasName: onihunter
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 1

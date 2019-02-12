@@ -14,7 +14,6 @@ namespace Pagann.OniHunter
         protected override void HeritedUpdate()
         {
             base.HeritedUpdate();
-            if(canBePressed) Debug.Log("time scale : " + Time.timeScale);
         }
 
         public void OnEnter()
@@ -25,7 +24,7 @@ namespace Pagann.OniHunter
 
         public void OnExit()
         {
-            if (canBePressed) DisableSlowMo();
+            if (canBePressed) EnableSlowMo();
             canBePressed = false;
             Debug.Log("Exited");
         }

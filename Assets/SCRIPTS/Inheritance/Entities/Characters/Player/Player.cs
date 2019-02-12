@@ -329,7 +329,7 @@ namespace Pagann.OniHunter
             ActivateLineDash(true);
             //touchManager.ReplaceTarget();
             InitialJump();
-            bulletTime.SlowTime(ghostTimeScale, ghostSpeedSlowMo); // Slow Mo   
+            bulletTime.SlowTime(ghostTimeScale, ghostSpeedSlowMo); // Enabling slow mo
             isPreparing = true;
             canInitiateStrike = false;
             GameManager.gameState.CallGhostStrikePreparing();
