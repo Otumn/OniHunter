@@ -37,10 +37,10 @@ namespace Pagann.OniHunter
 
         #region Entity Callbacks
 
-        public override void LevelEnd(bool mainObj, bool sideObj, bool dashLimit)
+        public override void LevelEnd(bool objective)
         {
-            Debug.Log("Ended. Main : " + mainObj + ", Side : " + sideObj + ", Dashs : " + dashLimit);
-            if (sideObj)
+            Debug.Log("Level ended, objective was " + objective + " completed");
+            if (objective)
             {
                 winAnim.SetBool("Win", true);
             }

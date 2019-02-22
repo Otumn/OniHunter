@@ -104,7 +104,7 @@ namespace Pagann.OniHunter
 
         }
 
-        public virtual void LevelEnd(bool mainObj, bool sideObj, bool dashLimit)
+        public virtual void LevelEnd(bool objective)
         {
 
         }

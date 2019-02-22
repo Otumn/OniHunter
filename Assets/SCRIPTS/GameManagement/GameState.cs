@@ -85,14 +85,11 @@ namespace Pagann.OniHunter
         {
             if (!propsAllHarmless)
                 CheckForAllLethalProps();
-            
-            bool mainObj = Manager.WinConditions.MainObjectiveChecked();
-            bool sideObj = Manager.WinConditions.SideObjectiveChecked();
-            bool dashLimit = Manager.WinConditions.DashLimitChecked();
 
+            bool objective = Manager.WinConditions.ObjectiveChecked();
             if (finalSaluteDone && propsAllHarmless)
             {
-                CallLevelEnd(mainObj, sideObj, dashLimit);
+                CallLevelEnd(objective);
             }
         }
 
@@ -159,11 +156,11 @@ namespace Pagann.OniHunter
         /// <summary>
         /// Call the LevelEnd method on all registered entities.
         /// </summary>
-        public void CallLevelEnd(bool mainObj, bool sideObj, bool dashLimit)
+        public void CallLevelEnd(bool obj)
         {
             for (int i = 0; i < levelEntities.Count; i++)
             {
-                levelEntities[i].LevelEnd(mainObj, sideObj, dashLimit);
+                levelEntities[i].LevelEnd(obj);
             }
             Debug.Log("Level " + gameManager.gameObject.name + " ended");
         }

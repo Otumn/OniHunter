@@ -6,87 +6,86 @@ namespace Pagann.OniHunter
 {
     public class WinConditions : Entity
     {
-        public enum SideObjective { Kill, Assassinate, Loot}
+        public enum SideObjective { KillAll, Assassinate, BeginWith, EndWith}
 
         #region Serialized field
 
-        [SerializeField] private Enemy mainTarget;
-        [SerializeField] private SideObjective sideObjective;
+        [SerializeField] private SideObjective objective;
+        [SerializeField] private Enemy relatedTarget;
 
         #endregion
 
         #region Hidden fields
 
-        [SerializeField] [HideInInspector] private List<Enemy> allEnemies = new List<Enemy>();
-        private int countedDashs = 0;
-
-        #endregion
-
-        #region Entity callbacks
-
-        public override void TargetPlaced()
-        {
-            countedDashs++;
-        }
+        [SerializeField] private List<Enemy> allEnemies = new List<Enemy>();
+        private List<Enemy> killedEnemies = new List<Enemy>();
 
         #endregion
 
         #region Public Methods
 
-        public bool MainObjectiveChecked()
+        public bool ObjectiveChecked()
         {
-            if(mainTarget == null)
+            if (relatedTarget == null && objective != SideObjective.KillAll)
             {
-                Debug.Log("No main target referenced. Main win condition false by default");
+                Debug.Log("No main target referenced. Win condition false by default");
                 return false;
             }
 
-            if(mainTarget.IsDead)
+            if (objective == SideObjective.Assassinate)
             {
+                Debug.Log("Assassinate objective tested");
+                if (killedEnemies.Count == 1)
+                {
+                    if (killedEnemies[0] == relatedTarget) return true;
+                    else return false;
+                }
+                else return false;
+            }
+            else if(objective == SideObjective.KillAll)
+            {
+                Debug.Log("KillAll objective tested");
+                for (int i = 0; i < allEnemies.Count; i++)
+                {
+                    if (allEnemies[i].IsDead) continue;
+                    else return false;
+                }
                 return true;
             }
-            else
+            else if(objective == SideObjective.BeginWith)
             {
-                return false;
-            }
-        }
-
-        public bool SideObjectiveChecked()
-        {
-            if(sideObjective == SideObjective.Kill)
-            {
-                bool enemyAlive = false;
-                for (int i = 0; i < AllEnemies.Count; i++)
+                Debug.Log("BeginWith objective tested");
+                for (int i = 0; i < allEnemies.Count; i++)
                 {
-                    if(!AllEnemies[i].IsDead)
-                    {
-                        enemyAlive = true;
-                        break;
-                    }
+                    if (allEnemies[i].IsDead) continue;
+                    else return false;
                 }
-                return !enemyAlive;
+                if (killedEnemies.Count > 0)
+                {
+                    if (killedEnemies[0] == relatedTarget) return true;
+                    else return false;
+                }
             }
-            else if(sideObjective == SideObjective.Assassinate)
+            else if(objective == SideObjective.EndWith)
             {
-                return false;
-            }
-            else if(sideObjective == SideObjective.Loot)
-            {
-                return false;
+                Debug.Log("EndWith objective tested");
+                for (int i = 0; i < allEnemies.Count; i++)
+                {
+                    if (allEnemies[i].IsDead) continue;
+                    else return false;
+                }
+                if (killedEnemies.Count > 0)
+                {
+                    if (killedEnemies[killedEnemies.Count - 1] == relatedTarget) return true;
+                    else return false;
+                }
             }
             return false;
         }
 
-        public bool DashLimitChecked()
+        public void RegisterKilledEnemy(Enemy killedEnemy)
         {
-            if(countedDashs > GameManager.gameState.Parameters.DashObjective)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
+            killedEnemies.Add(killedEnemy);
         }
 
         public void RegisterEnemy(Enemy enemy)

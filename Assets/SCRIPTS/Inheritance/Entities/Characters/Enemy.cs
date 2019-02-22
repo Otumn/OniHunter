@@ -219,6 +219,7 @@ namespace Pagann.OniHunter
             canMove = false;
             HideInteraction();
             hitbox.enabled = false;
+            GameManager.gameState.Manager.WinConditions.RegisterKilledEnemy(this);
             GameManager.gameState.CallEnemyKilled();
             GameManager.gameState.CamZoom.TriggerCamZoom(0);
             Debug.Log(gameObject.name + " died instantly");
@@ -264,6 +265,7 @@ namespace Pagann.OniHunter
             isDead = true;
             Anim.SetTrigger("Freeze");
             HideInteraction();
+            GameManager.gameState.Manager.WinConditions.RegisterKilledEnemy(this);
             GameManager.gameState.CallEnemyKilled();
         }
 
